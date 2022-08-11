@@ -1,0 +1,49 @@
+*{/*MARGIM GERAL DO SITE*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+div {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section {
+    margin-left: 100px;
+}
+
+h1 {/*ESTILIZAÇÃO DO TITULO*/
+    color: #515151;
+    font-size: 100px; 
+}
+
+h2 {/*ESTILIZAÇÃO DO SUBTITULO*/
+    color: 515151;
+    font-size: 58px;
+    font-weight: 500;
+}
+
+p {/*ESTILIZAÇÃO DO PARAGRAFO*/
+    color: #848484;
+    font-size: 24px;
+    width: 500px;
+    margin-top: 30px;
+}
+
+button {   /*Estilização do botão*/
+    background: #ADFF00;      /*COR DO BOTÃO*/
+    border-radius: 20.5px;
+    color: #000000;
+    font-size: 20px;
+    width: 239px;
+    height: 64px;
+    border: none;
+    font-weight: 900;
+    filter: drop-shadow(0px 4px 4px rgba(0,0,0.25));/*SOMBRA DO BOTÃO*/
+    margin-top: 50px;
+}
